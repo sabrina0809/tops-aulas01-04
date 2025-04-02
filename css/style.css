@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.botoes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.botoes button {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 2px;
+    border:none;
+}
+
+.btlaranja{
+    background-color: orange;
+}
+
+.btcinza{
+    background-color: rgb(151, 151, 151);
+}
